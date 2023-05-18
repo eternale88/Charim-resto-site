@@ -17,8 +17,13 @@ const Header = () => (
         adipisicing magna labore excepteur. Sit enim ut esse do nisi do tempor
         duis deserunt commodo commodo ad aute.
       </p>
+      <button className='custom__button' type='button'>
+        Explore Menu
+      </button>
     </div>
-    <div className='app__wrapper_img'></div>
+    <div className='app__wrapper_img'>
+      <img src={images.welcome} alt='header img' />
+    </div>
   </div>
 );
 
